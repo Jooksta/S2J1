@@ -83,15 +83,16 @@ describe "#multiply" do
   end
 
   it "multiplies two other numbers"
-    # one other test here, don't forget do end ;)
+    expect(multiply(30, 1)).to eq(30)
 
   it "multiplies two other numbers, one of them being 0"
-    # one last test, with 0 in it
+    expect(multiply(30, 0)).to eq(0)
 
 end
 
 describe "#power" do
   it "raises one number to the power of another number"
+  #écrire le test
 end
 
 # http://en.wikipedia.org/wiki/Factorial
